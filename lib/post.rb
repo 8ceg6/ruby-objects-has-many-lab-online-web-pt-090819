@@ -10,5 +10,5 @@ def initialize(title)
 end 
 
 def self.posts 
-  @post 
+  @@all 
 end
