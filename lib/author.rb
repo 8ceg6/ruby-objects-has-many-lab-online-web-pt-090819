@@ -9,7 +9,7 @@ attr_accessor :name, :posts
   end
   
   def posts  
-    Post.select do |posts| 
+    Post.all.select do |posts| 
       posts.author == self 
     end
      
