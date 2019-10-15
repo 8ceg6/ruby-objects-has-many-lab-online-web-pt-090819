@@ -9,6 +9,6 @@ def initialize(title)
   @@all << self 
 end 
 
-def self.posts 
+def self.all
   @@all 
 end
