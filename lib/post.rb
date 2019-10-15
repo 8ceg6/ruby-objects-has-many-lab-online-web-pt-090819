@@ -14,7 +14,11 @@ def self.all
 end
 
 def author_name
-    author
+    if self.author
+      self.artist.author.name 
+    else 
+      nil 
+    end
 end
 
 end
