@@ -9,8 +9,8 @@ attr_accessor :name, :posts
   end
   
   def posts  
-    Post.all.select do |posts| 
-      posts.author == self 
+    Post.all.select do |psts| 
+      psts.author == self 
     end
      
   end
