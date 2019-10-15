@@ -16,7 +16,7 @@ attr_accessor :name, :posts
   end
   def add_post(post)
       self.posts << post
-      post.artist= self
+      post.author= self
   end
   
 end
