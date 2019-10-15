@@ -8,4 +8,7 @@ def initialize(title)
   @author = author 
   @@all << self 
 end 
+
+def posts 
+  @post 
 end
