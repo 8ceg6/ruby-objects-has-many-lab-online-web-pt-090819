@@ -12,4 +12,5 @@ class Song
       @@all
   end
 
+def so
 end
