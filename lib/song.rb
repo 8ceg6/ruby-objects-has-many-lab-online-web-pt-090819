@@ -12,5 +12,7 @@ class Song
       @@all
   end
 
-def so
+def artist_name
+    if self.artist.name
+end
 end
