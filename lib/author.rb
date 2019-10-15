@@ -15,7 +15,7 @@ attr_accessor :name, :posts
      
   end
   def add_posts(post)
-      self.post << post
+      self.posts << post
   end
   
 end
